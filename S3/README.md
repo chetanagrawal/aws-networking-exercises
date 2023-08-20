@@ -1,4 +1,6 @@
-1. Download sample website content zip file. Unzip it locally and then upload all the files and folders directly in the S3 bucket without any top level subfolders.
+1. Download sample website content zip file. Unzip it locally and then upload all the files and folders directly into the S3 bucket without any further top level subfolders. See below:
+
+![image](https://github.com/chetanagrawal/aws-networking-exercises/assets/5749307/d7c8aa3b-f17e-4950-86ae-c5ffe7351ea5)
 
 2. Bucket policy
 ```
