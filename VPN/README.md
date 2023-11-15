@@ -1,5 +1,7 @@
 # Site to Site VPN setup on Amazon Linux 2023 using Libreswan
 
+### Following steps needs to be performed on the Customer side of the VPN server for connecting to AWS VGW. This guide assumes that you have already configured AWS side of the network and created Site-to-Site VPN connection in AWS. You also need to download the VPN configuration file before you proceed.
+
 The default repository for Amazon Linux 2023 does not include openswan.
 Also, openswan is already a non-maintained package and should not be used even if available.
 https://docs.aws.amazon.com/linux/al2023/release-notes/all-packages-AL2023.1.html
